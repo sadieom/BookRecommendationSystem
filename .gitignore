@@ -1,0 +1,45 @@
+# VS Code settings
+.vscode/
+.vscode-server/
+*.code-workspace
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Git Large File Storage (if ever used)
+*.lock
+✅ Explanation:
+
+.vscode/ and .vscode-server/ → ignores VS Code settings and logs
+
+__pycache__/ and *.pyc → ignores Python cache files
+
+*.log → ignores logs
+
+env/ or venv/ → ignores Python virtual environments
+
+.DS_Store, Thumbs.db → ignores OS-specific files
+
+Step 3: Remove already-tracked files
+If Git already tracked logs or VS Code files, run:
+
+bash
+Copy
+Edit
+git rm -r --cached .vscode-server
+git rm -r --cached .vscode
