@@ -1,0 +1,23 @@
+2.3 Rule Based System Reflection
+________________________________
+
+I love reading and reading every night before bed, I am always starting a new book and to my husband’s dismay buying 
+new books for me at home library. My rule-based system works by asking the user some basic questions
+about their reading preferences, including genre, mood, book length, age group, and reading purpose. Each answer 
+is stored, and then the system applies a set of IF-THEN rules to determine the most relevant recommendation. This 
+allows readers to easily find books within a predetermined library of suggestions and decide what the next good read
+will be. The recommendation process does not rely on randomness or machine learning and follows clearly structured 
+logical rules.
+
+One of the challenges I faced while working on this project was figuring out how to structure the rules, so they were readable
+and functional. I had to rely on nested conditionals and dictionaries to capture different combinations of user responses. I 
+also had a couple of issues setting up my GitHub. I was able to login and connect VS Code with my GitHub account, but once it 
+was time to commit and push the assignment up to GitHub, I began seeing multiple errors (which became overwhelming to deal with).
+
+Using AI to collaborate helped when I did run into challenges and helped me get the structure of my project set up in a way 
+that looked nice and organized. AI was able to give me appropriate examples of IF-THEN rules to help me move through my Recommendation
+System. It streamlined the process, helped me find issues within my code, and helped troubleshoot the errors I would run into when 
+needed. Occasionally I would have to reword my questions or have it explain a little further in detail or show more examples to know 
+what to do next since VS Code and WSL are slightly different from other software I have used in the past, but overall, once all issues were 
+addressed and fixed it was a smooth process.
+
