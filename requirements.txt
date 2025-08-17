@@ -1,2 +1,5 @@
+# python3 2.3_Rule_Based_System.py 
+# type this in terminal to run the rule based system.
+
 # Requirements for Book Recommendation System
 # (only built-in libraries are used, no extra dependencies needed)
