@@ -1,0 +1,93 @@
+📘 Project Report: Book Recommendation System
+
+PART 1:
+
+*Rule Based Recommendations System  ✅ (chosen)
+Concept: Suggest items (books, music, recipes, etc.) based on hardcoded preferences.
+Ask questions about preferences, then apply rules to narrow down the options.
+Why it’s good: Shows early recommender logic without algorithms.
+What it does:
+Suggests books or movies to the user based on their preferences like genre, mood, or length.
+ How it works using rules:
+The system stores predefined rules mapping preferences to recommendations. For example:
+•	If genre = fantasy and mood = adventurous → recommend The Hobbit.
+•	If genre = sci-fi and length = short → recommend Arrival (movie) or The Martian Chronicles (book).
+User answers a series of questions, and the rules select the most fitting match.
+
+*Personal Finance Advisor
+Concept: Gives savings or spending advice based on income, expenses, and goals.
+Example rules:
+•	If expenses > income → "Reduce non-essential spending."
+•	If savings < 10% of income → "Increase your monthly savings."
+It could also suggest budgeting tips or investments.
+ What it does:
+Gives basic budgeting, saving, and spending advice based on a user’s income, expenses, and savings goals.
+How it works using rules:
+Uses if–then logic to compare user financial data to target thresholds. For example:
+•	If expenses > income → suggest “Reduce non-essential spending.”
+•	If savings < 10% of income → suggest “Increase your monthly savings.”
+•	If debt > 50% of income → suggest “Prioritize paying off high-interest debt.”
+
+*Plant Care Advisor
+Concept: Gives tips for plants based on species, seasons, and soil moisture.
+Example rules:
+•	If plant = “cactus” and moisture > 50% → “Reduce watering.”
+•	If plant = “orchid” and humidity < 40% → “Increase humidity.”
+What it does:
+Recommends watering, sunlight, and care tips for plants based on species, seasons, and soil moisture.
+
+
+I will be choosing to do the recommendation system for books. I am an avid reader, and I always get stuck on 
+what I should read next once I finish a book, this system should help eliminate the huge decision making. 
+________________________________________
+
+PART 2: Rules/Logic
+Rule-Based Book Recommendation Logic
+1. Mood Rules
+•	IF mood = "happy"
+THEN select from cheerful, lighthearted, or uplifting books.
+•	IF mood = "sad"
+THEN select from comforting, empathetic, or hopeful books.
+•	IF mood = "adventurous"
+THEN select from action-packed, fantasy, or exploration books.
+•	IF mood = "romantic"
+THEN select from love stories, emotional dramas, or feel-good romances.
+•	IF mood = "curious"
+THEN select from educational, thought-provoking, or non-fiction books.
+•	IF mood = "reflective"
+THEN select from deep, philosophical, or life-exploring books.
+
+2. Reading Level Rules
+•	IF level = "beginner"
+THEN recommend simple, easy-to-read books with straightforward plots.
+•	IF level = "intermediate"
+THEN recommend books with moderate complexity in language and themes.
+•	IF level = "advanced"
+THEN recommend books with rich vocabulary, layered themes, or classics.
+
+3. Length Preference Rules
+•	IF length = "short"
+THEN recommend short novels, novellas, or quick reads.
+•	IF length = "medium"
+THEN recommend books of standard novel length (200–400 pages).
+•	IF length = "long"
+THEN recommend epic novels, series, or lengthy reads.
+
+
+4. Combination Rules
+•	IF mood + level + length all match a set of books in the knowledge base
+THEN recommend those matching books.
+•	IF no exact match exists
+THEN broaden the search by relaxing length first, then level, keeping mood as the highest priority.
+________________________________________
+
+PART 3: Results of Three Inputs
+Input: fantasy + adventurous + medium + young adult + entertainment
+Output: "Harry Potter and the Sorcerer’s Stone by J.K. Rowling"
+
+Input: mystery + suspenseful + short + adult + entertainment
+Output: "Murder on the Orient Express by Agatha Christie"
+
+Input: non-fiction + inspiring + medium + adult + motivation
+Output: "Atomic Habits by James Clear"
+________________________________________

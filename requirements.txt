@@ -1,0 +1,2 @@
+# Requirements for Book Recommendation System
+# (only built-in libraries are used, no extra dependencies needed)
